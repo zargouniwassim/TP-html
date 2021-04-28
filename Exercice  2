@@ -1,0 +1,88 @@
+@import  url ( 'https://fonts.googleapis.com/css2?family=Lato&display=swap' );
+corps {
+    famille de polices :  'Lato' ,
+    sans-serif;
+    fond : rouge
+}
+* {
+    rembourrage :  0 ;
+    marge :  0 ;
+    box-dimensionnement : border-box;
+}
+. conteneur {
+    largeur maximale :  1000 px ;
+    largeur :  100 % ;
+    affichage : flex;
+    justify-content : espace autour;
+    marge :  100 px auto;
+
+}
+
+. content {
+    largeur :  50 % ;
+   affichage : flex;
+   flex-direction : colonne;
+   écart :  0,5 rem ;
+}
+
+formulaire {
+    largeur :  40 % ;
+    affichage : flex;
+    flex-direction : colonne;
+    écart :  0,5 rem ;
+}
+. from__group {
+    affichage : flex;
+    flex-direction : colonne;
+    écart :  0,5 rem ;
+}
+entrée {
+    largeur :  100 % ;
+    hauteur :  40 px ;
+    rayon de la bordure :  5 px ;
+    bordure : rouge 3 px ;
+    contour : aucun;
+    rembourrage :  1 rem  1 rem ;
+    taille de la police :  15 px ;
+    
+}
+input :: placeholder {
+    font-family : hériter;
+}
+. btn {
+    couleur d'arrière-plan : cramoisi;
+    bordure : aucune;
+    rayon de la bordure :  8 px ;
+    couleur : bleu;
+    hauteur :  40 px ;
+    transition : toutes les entrées / sorties de 0,5 s ;
+    curseur : pointeur;
+}
+. btn : hover {
+    couleur de fond : bleu ;
+}
+. texte {
+   
+    largeur :  100 % ;
+    rembourrage :  1 rem  1 rem ;
+    couleur de fond : rouge;
+    
+}
+@media ( largeur maximale : 500 px ) {
+    . conteneur {
+        flex-direction : colonne;
+        justify-content : centre;
+        align-items : centre;
+        écart :  30 px ;
+    }
+    . contenu ,
+  
+    formulaire {
+        largeur :  100 %  ! important ;
+    }
+}
+@media ( largeur minimale : 600 px ) {
+    . content {
+        marge supérieure :  1,5 rem ;
+    }
+}
