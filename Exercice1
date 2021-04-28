@@ -1,0 +1,55 @@
+@import  url ( ' https://fonts.googleapis.com/css2?family=Lato&display=swap ' );
+@import  url ( ' https://fonts.googleapis.com/css2?family=Open+Sans&display=swap ' );
+@import  url ( ' https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap ' );
+@import  url ( ' https://fonts.googleapis.com/css2?family=Dancing+Script&family=Zen+Dots&display=swap ' );
+
+corps {
+    taille de la police : 20 px ;
+    rembourrage : 0 ;
+    marge : 0 ;
+    
+}
+corps {
+
+hauteur min : 100 vh ;
+arrière - plan : url ( " https://visiter-voyager.info/wp-content/uploads/2019/05/paysage-nature.jpg " );
+background-repeat : pas de répétition ;
+background-size : couverture ;
+position d'arrière-plan : centre / centre ;
+
+}
+* {
+    rembourrage : 0 ;
+    marge : 0 ;
+}
+.noscript {
+largeur : 100 % ;
+hauteur : 100 vh ;
+background-color : rgba ( $ color :  # 98AFC7 , $ alpha :  0.8 );
+affichage : flex ;
+justify-content : centre ;
+align-items : centre ;
+}
+.container {
+    largeur : 800 px ;
+    arrière - plan : rgba ( 255 , 255 , 255 , 0,5 );
+    rayon de la bordure : 15 px ;
+    rembourrage : 2 rem  2 rem ;
+    hauteur min : 300 px ;
+    formulaire {
+        affichage : flex ;
+        align-items : centre ;
+        justify-content : espace autour ;
+        marge supérieure : 3 rem ;
+    }
+    h1 {
+        famille de polices : " Zen Dots " ;
+        couleur : # 98AFC7 ;
+        poids de la police : 300 ;
+        taille de la police : 50 px ;
+    }
+    entrée , sélectionnez {
+        largeur : 35 % ;
+        hauteur : 30 px ;
+    }
+    }
