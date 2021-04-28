@@ -1,0 +1,69 @@
+@import  url ( "https://fonts.googleapis.com/css2?family=Lato&display=swap" );
+@import  url ( "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" );
+@import  url ( "https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" );
+@import  url ( "https://fonts.googleapis.com/css2?family=Dancing+Script&family=Zen+Dots&display=swap" );
+corps {
+  taille de la police :  20 px ;
+  rembourrage :  0 ;
+  marge :  0 ;
+}
+
+corps {
+  hauteur min :  90 vh ;
+  arrière -  plan : url ( "https://visiter-voyager.info/wp-content/uploads/2019/05/paysage-nature.jpg" );
+  background-repeat : pas de répétition;
+  background-size : couverture;
+  position d'arrière-plan : centre / centre;
+}
+
+* {
+  rembourrage :  0 ;
+  marge :  0 ;
+}
+
+. noscript {
+  largeur :  100 % ;
+  hauteur :  100 vh ;
+  couleur d'arrière-plan :  rgba ( 152 ,  175 ,  199 ,  0,8 );
+  affichage : -webkit-box;
+  affichage : -ms-flexbox;
+  affichage : flex;
+  -webkit-box-pack : centre;
+      -ms-flex-pack : centre;
+          justify-content : centre;
+  -webkit-box-align : centre;
+      -ms-flex-align : centre;
+          align-items : centre;
+}
+
+. conteneur {
+  largeur :  800 px ;
+  arrière -  plan : rgba ( 255 ,  255 ,  255 ,  0,5 );
+  rayon de la bordure :  10 px ;
+  rembourrage :  2 rem  2 rem ;
+  hauteur min :  200 px ;
+}
+
+. formulaire conteneur  {
+  affichage : -webkit-box;
+  affichage : -ms-flexbox;
+  affichage : flex;
+  -webkit-box-align : centre;
+      -ms-flex-align : centre;
+          align-items : centre;
+  -ms-flex-pack : distribuer;
+      justify-content : espace autour;
+  marge supérieure :  3 rem ;
+}
+
+. conteneur  h1 {
+  famille de polices :  "Zen Dots" ;
+  couleur :  # 98AFC7 ;
+  poids de la police :  500 ;
+  taille de la police :  30 px ;
+}
+
+. récipient d'  entrée , . conteneur  sélectionnez {
+  largeur :  40 % ;
+  hauteur :  40 px ;
+}
