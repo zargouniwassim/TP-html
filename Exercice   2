@@ -1,0 +1,34 @@
+let  state  =  { } ;
+laissez  arr  =  [ ] ;
+laissez  contenu  =  document . querySelector ( ".content" ) ;
+laissez  form  =  document . querySelector ( "formulaire" ) ;
+document . querySelectorAll ( "entrée" ) . forEach ( ( el )  =>  {
+  el . addEventListener ( "changement" ,  ( e )  =>  {
+    état  =  { ... état ,  [ e . cible . nom ] : e . cible . valeur  } ;
+  } ) ;
+} ) ;
+
+forme . addEventListener ( "soumettre" ,  ( e )  =>  {
+  e . preventDefault ( ) ;
+  si  (
+    état . nom  ==  ""  ||
+    état . contenu  ==  ""  ||
+    état . nom  ==  non défini  ||
+    état . contenu  ==  indéfini
+  ) 
+    
+  }  else  {
+    arr . push ( état . nom  +  ":"  +  état . contenu ) ;
+    let  string  =  "" ;
+    arr . forEach ( ( el )  =>  {
+      string  =  string  +  `<div class = 'text'> $ { el } </div>` ;
+    } ) ;
+    console . log ( chaîne ) ;
+    contenu . innerHTML  =  chaîne ;
+    chaîne  =  "" ;
+    état  =  { } ;
+    document . querySelectorAll ( "entrée" ) . forEach ( ( el )  =>  {
+      el . valeur  =  "" ;
+    } ) ;
+  }
+} ) ;
